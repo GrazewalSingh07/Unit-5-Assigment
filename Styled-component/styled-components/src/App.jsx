@@ -8,11 +8,11 @@ function App() {
 
   return (
     <div className="App">
-      <Button >Primary</Button>
-      <Button  >Default Button</Button>
-      <Button  >Dashed</Button>
+      <Button>Primary</Button>
+      <Button>Default Button</Button>
+      <Button>Dashed</Button>
       <Button>Text Button</Button>
-      <Button> <a href="#">Link Button</a></Button>
+      <Button>Link Button</Button>
     </div>
   )
 }
