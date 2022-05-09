@@ -1,0 +1,58 @@
+{
+  "details": [
+    {
+      "name": "Shawon Biswas",
+      "age": "",
+      "address": "Krishnaganj ,Brance-code:3696,  P.O-Krishnaganj , P.O-krishnaganj,Nadia,West-Bengal",
+      "Dept": "",
+      "salary": "",
+      "marital": "Unmaried",
+      "id": 1
+    },
+    {
+      "name": "Anjana Biswas",
+      "age": "52",
+      "address": "Sukantapally taraknagar krishnaganj",
+      "Dept": "Dept-C",
+      "salary": "3000",
+      "marital": "Maried",
+      "id": 2
+    },
+    {
+      "name": "Shanto Biswas",
+      "age": "59",
+      "address": "Sukantapally taraknagar krishnaganj",
+      "Dept": "Dept-C",
+      "salary": "48000",
+      "marital": "Maried",
+      "id": 3
+    },
+    {
+      "name": "Shawon Biswas",
+      "age": "24",
+      "address": "Krishnaganj ,Brance-code:3696,  P.O-Krishnaganj , P.O-krishnaganj,Nadia,West-Bengal",
+      "Dept": "Dept-B",
+      "salary": "80000",
+      "marital": "Unmaried",
+      "id": 4
+    },
+    {
+      "name": "jaya biswas",
+      "age": "20",
+      "address": "Sukantapally taraknagar krishnaganj",
+      "Dept": "Dept-B",
+      "salary": "60000",
+      "marital": "Unmaried",
+      "id": 5
+    },
+    {
+      "name": "raju biswas",
+      "age": "22",
+      "address": "Sukantapally taraknagar krishnaganj",
+      "Dept": "Dept-B",
+      "salary": "70000",
+      "marital": "Unmaried",
+      "id": 6
+    }
+  ]
+}

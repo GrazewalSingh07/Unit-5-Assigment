@@ -1,0 +1,24 @@
+.form{width: 200px;height: 300px;
+    border: 1px solid;text-align: center;
+    gap: 10px;
+    margin-left: 200px;
+}
+
+.maried{width: 100px;
+height: 20px;border: 1px solid;margin: auto;margin-top: 10px;
+}
+.unmaried{width: 100px;
+height: 20px;border: 1px solid;margin: auto;margin-top: 10px;
+}
+.box{margin-left: 10px;margin-top: 15px;}
+.boxx{margin-left: 10px;margin-top: 15px;}
+.mar{display: flex;
+    /*border: 1px solid;*/
+}
+.unmar{display: flex;
+    /*border: 1px solid;*/
+}
+.submit{margin-top: 10px;}
+
+.show{width:300px;height:300px;border:1px solid;margin: auto;margin-bottom: 10px;}
+.p{background-color: rgb(189, 248, 248);}
