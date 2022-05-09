@@ -1,0 +1,7 @@
+.navbar{display:flex;border: 1px solid;margin: 5px;height: 50px;justify-content: space-around;background-color: rgb(13, 13, 71);color: aliceblue;border-radius: 10px;}
+
+
+.product{margin-top: 10px;}
+.login{margin-top: 10px;}
+.signup{margin-top: 10px;}
+.link{color: aliceblue;text-decoration: none;}

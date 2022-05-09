@@ -1,0 +1,5 @@
+.image{display: grid;grid-gap: 3%;
+    grid-template-columns: repeat(4 ,23%);margin-left: 6%;}
+    .img{width: 70%;border: 1px solid;}
+    .details{width: 250px;height: 300px;border: 1px solid;margin:auto;margin-top: 10%;}
+    .img1{width: 70%;}
