@@ -1,0 +1,137 @@
+.Navbar1{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f1f7;
+}
+.NavbarLogo{
+    width:180px;
+    height: 87%;
+    /* padding: 5px; */
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    margin-top:8px ;
+
+}
+.NavbarInput{
+    width:630px;
+    height: 87%;
+    /* border: 1px solid black; */
+    margin-left: 80px;
+    margin-top:8px ;
+    display: flex;
+    margin-right: 0;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.searchIcons{
+  width:50px;
+  height: auto;
+  font-size: 35px;
+  /* border: 1px solid green; */
+  background-color:#202340;
+  margin-left: 0;
+  margin-left: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.allDepartment{
+    width:150px;
+    height: 90%;
+    padding: 7px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    
+}
+.allDepartment>select{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    border: 0ch;
+    
+}
+.allDepartment>select>option{
+    font-size: 15px;
+   margin-top: 30px;
+   text-decoration: none;
+}
+.navinputbardiv{
+    width:430px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+   
+
+}
+.inputbar{
+    width:100%;
+    height: 92%;
+  
+    border-top: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;}
+.navbarright{
+    width:300px;
+    /* border: 1px solid black; */
+    height: 90%;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.navrightimg{
+    width:100%;
+    height: 100%;
+}
+
+
+/* ...........................navbar2............................ */
+
+
+.navbar2{
+    width: 100%;
+    height: 60px;
+    /* border: 1px solid black; */
+    display: flex;  
+}
+.navbarslide{
+    width:180px;
+    height: 87%;
+    /* padding: 5px; */
+    margin-left: 20px;
+    /* border: 1px solid black; */
+    margin-top:8px ;
+
+}
+
+.Nav2product{
+    width:630px;
+    height: 87%;
+    /* border: 1px solid black; */
+    margin-left: 80px;
+    margin-top:8px ;
+    display: flex;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.navbarright2{
+    width:300px;
+    /* border: 1px solid black; */
+    height: 90%;
+    margin-top: 8px;
+    margin-left: 100px;
+}
+.navbar3{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}

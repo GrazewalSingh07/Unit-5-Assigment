@@ -1,0 +1,10 @@
+.policy{
+    font-size: 12px;
+    padding: 5px;
+    margin: 0px;
+}
+.footer{
+    height: 100px;
+    border: 1px solid white;
+    background-color: rgb(240,241,247);
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav{
+ height: 65px;
+box-shadow: rgba(17, 17, 26, 0.5) 2px 2px 4px, rgba(0, 0, 0, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+background-color: rgb(240,241,247);
+}
+
+.displayflex{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.continue{
+    color: #2e2c38;
+    font-weight: 700;
+    font-size: 20;
+    font-family: Roboto,Arial,Helvetica,sans-serif; 
+}
+.continue:hover{
+    color:rgb(17,202,240)
+}
+.shop-logo-img{
+    margin: 0px;
+    width:250px;
+    height:70%
+}
+.logo{
+    margin-left: -30px;
+}

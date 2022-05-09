@@ -1,0 +1,523 @@
+.navbar2slide{
+    /* // height: 70px;
+    // background-color:#f0f1f7; */
+    display: flex;
+    justify-content: start;
+    /* // align-items: center; */
+    /* border: 1px solid black; */
+}
+.navbar2slide>span{
+    margin-left: 15px;
+}
+.menu-bars{
+    margin-left: 2rem;
+    font-size: 28px;
+    background: none;
+    color: black;
+    /* border: 1px solid black; */
+    float: right;
+}
+.navbar>span{
+    /* // font-weight: bold; */
+    font-size: 18px;
+    margin-left: 15px;
+}
+.nav-menu{
+    background-color: #ffffff;
+    width:350px;
+    height: 100vh;
+    /* // display: flex; */
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:-100%;
+    transition: .5s;
+    /* border: 1px solid black; */
+    overflow: scroll;
+}
+
+.nav-menu.active{
+    left:0;
+    transition: 1s;
+    /* border: 1px solid black; */
+}
+.nav-text{
+    display: flex;
+    justify-content: start;
+   
+    align-items: center;
+    padding: 15px;
+    list-style: none;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+.nav-text a{
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.closebtn{
+    margin-bottom: 25px;
+}
+.nav-menu-items{
+    width:100%;
+}
+.slideLogo{
+    width:170px;
+    height: 65px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.slideLogo>img{
+    height: 98%;
+    width:36px
+}
+.slideLogo>h2{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.slideItems{
+    margin-top: 30px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+
+}
+.navData1{
+    /* // border: 1px solid black; */
+    width:97%;
+    /* // height: 200px;   */
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.nav1-text{
+    /* // display: flex; */
+    justify-content: start;
+   
+    /* // align-items: center;
+    // padding: 15px; */
+    list-style: none;
+    /* // height: 60px;
+    // border: 1px solid black; */
+    font-size: 20px;
+}
+.nav1-text a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+     /* border: 1px solid black; */
+    margin-bottom: 15px;
+}
+.navData2{
+    margin-left: 10px;
+}
+.nav2-text{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* // border: 1px solid black; */
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.nav-text3{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* // border: 1px solid black; */
+    margin-bottom: 12px;
+    /* // justify-content: space-between; */
+}
+.nav-text3>span{
+    margin-left: 10px;
+}
+.navData2{
+    margin-top: 20px;
+}
+.navicon3{
+    font-size: 20px;
+}
+.navData4{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.navicon4{
+    margin-right: 15px;
+    font-size: 20px;
+}
+.nav-text4{
+    /* // display: flex; */
+    justify-content: start;
+   
+    /* // align-items: center;
+    // padding: 15px; */
+    list-style: none;
+    /* // height: 60px;
+    // border: 1px solid black; */
+    font-size: 20px;
+}
+.nav-text4 a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* // border: 1px solid black; */
+    margin-bottom: 15px;
+}
+.nav2Productlist{
+    display: flex;
+}
+.navBar2Main{
+    /* // display: flex; */
+}
+.navBar2{
+    height: 52px;
+    background-color:#f0f1f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    /* border: 1px solid black; */
+}
+
+/* // .....................................nav2pr................................ */
+
+.nav2Productlist{
+    margin-left: 100px;
+}
+.nav2Productlist>a{
+margin-left: 15px;
+text-decoration: none;
+color: black;
+}
+.nav2Productlist>a:hover{
+    color: #09a79d;
+}
+
+
+/* // .........................................nav2signup/order/cart....................................... */
+.nav2endbox{
+    width:auto; 
+   justify-content: space-between;
+    display: flex;
+    padding: 1% 5%;
+}
+ 
+ .nav2-signuplogo{
+    /* margin-left: 2rem; */
+    font-size: 25px;
+    background: none;
+    color: black;
+    /* border: 1px solid black; */
+    float: right;
+    margin-right: 5px;
+ }
+ .navbar2signup{
+    
+    display: flex;
+    margin-left: -50px;
+    /* justify-content: start; */
+    
+    /* border: 1px solid black; */
+ }
+ .nav2signinlogo{
+     padding-top: 5px;
+     cursor: pointer;
+ }
+
+ /* ....................nav2orderts........... */
+ 
+ .navbar2order{
+    
+    display: flex;
+    /* justify-content: start; */
+    
+    /* border: 1px solid black; */
+    margin-left: 50px;
+ }
+ 
+ .nav2-orderlogo{
+    /* margin-left: 2rem; */
+    font-size: 23px;
+    background: none;
+    color: black;
+    /* border: 1px solid black; */
+    float: right;
+    margin-right: 5px;
+ }
+
+ .nav2orderlable{
+     padding-top: 5px;
+ }
+
+ /* .............................rightslid1.................. */
+
+ .nav-menuright1{
+    background-color: #ffffff;
+    width:350px;
+    height: 100vh;
+    /* // display: flex; */
+    justify-content: center;
+    position: fixed;
+    top:0;
+    right:-100%;
+    transition: .5s;
+    /* border: 1px solid black; */
+    overflow: scroll;
+}
+
+.nav-menuright1.active{
+    right:0;
+    transition: 1s;
+    /* border: 1px solid black; */
+}
+.menuright1-bars{
+    margin-left: 2rem;
+    font-size: 20px;
+    background: none;
+    color: black;
+    /* border: 1px solid black; */
+    float: right;
+}
+
+
+/* .....................right slide account............ */
+
+/* .slideLogo{
+    width:170px;
+    height: 65px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.slideLogo>img{
+    height: 98%;
+    width:36px
+}
+.slideLogo>h2{
+    margin-left: 10px;
+    margin-top: 15px;
+} */
+
+
+
+
+.rightslideAccount{
+    width:170px;
+    height: 50px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+}
+.rightslideAccount a{
+text-decoration: none;
+color: black;
+}
+.rightslideAccountlogo{
+    font-size: 35px;
+    
+}
+.rightslideaccountlable{
+    margin-left: 10px;
+}
+
+.rightmenuline{
+    margin-left: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* ...........cart slide............................ */
+
+.navbar2cart{
+    
+    display: flex;
+    /* justify-content: start; */
+    
+    /* border: 1px solid black; */
+    margin-left: 30px;
+ }
+ 
+ .nav2-cartlogo{
+    margin-top: 5px;
+    font-size: 26px;
+    background: none;
+    color: black;
+   
+    float: right;
+    margin-right: 5px;
+ }
+
+ .nav2cartlable{
+     padding-top: 5px;
+ }
+
+
+ .nav-menurightcart1{
+    background-color: #ffffff;
+    width:350px;
+    height: 100vh;
+    /* // display: flex; */
+    justify-content: center;
+    position: fixed;
+    top:0;
+   
+    right: -350px;
+    
+    transition: .5s;
+    /* border: 1px solid black; */
+    overflow: scroll;
+}
+
+.nav-menurightcart1.active{
+    right:0;
+    /* right:700px; */
+    transition: 1s;
+    /* border: 1px solid black; */
+}
+.menurightcart1-bars{
+    margin-left: 2rem;
+    font-size: 20px;
+    background: none;
+    color: black;
+    /* border: 1px solid black; */
+    float: right;
+}
+
+
+/* .................................clthes slide.......................... */
+
+.nav-clothes{
+    background-color: #ffffff;
+    width:350px;
+    height: 100vh;
+    /* // display: flex; */
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:-100%;
+    transition: .5s;
+    /* border: 1px solid black; */
+    overflow: scroll;
+}
+
+.nav-clothes.active{
+    left:0;
+    transition: 1s;
+    /* border: 1px solid black; */
+}
+
+.slideclothes{
+    width:170px;
+    height: 30px;
+    /* border: 1px solid black; */
+    /* margin-top: 20px; */
+    margin-left: 15px;
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.slideprclose{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.slideproductlist{
+    /* margin-top: 30px; */
+    margin-left: 10px;
+    /* border: 1px solid black; */
+
+}
+.slideproductlist>h1:hover{
+    color: #09a79d;
+}
+.slideproductlist>h1{
+    margin-bottom: 20px;
+}
+.nav2productdetail{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* // border: 1px solid black; */
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+.clothedetailsimg{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+
+/* .........................cloth3................. */
+
+.nav-clothes3{
+    background-color: #ffffff;
+    width:350px;
+    height: 100vh;
+    /* // display: flex; */
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left:-100%;
+    transition: .5s;
+    /* border: 1px solid black; */
+    overflow: scroll;
+}
+
+.nav-clothes3.active{
+    left:0;
+    transition: 1s;
+    /* border: 1px solid black; */
+}
+
+.navdatashow3-text{
+    /* // display: flex; */
+    justify-content: start;
+   
+    /* // align-items: center;
+    // padding: 15px; */
+    list-style: none;
+    /* // height: 60px;
+    // border: 1px solid black; */
+    font-size: 20px;
+}
+.navdatashow3-text a{
+    text-decoration: none;
+    color:black;
+    font-size: 17px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+     /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
